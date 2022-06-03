@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Consumindo API com AXIOS</title>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <style>
+            th{ 
+                color:#fff;
+                    }
+        </style>
+
+    </head>
+    <body>
+        <!--<form method="POST">
+            <div id="input-data">
+                <input id="nome" class="input-text" placeholder="Nome" type="text" required />
+                <input class="input-btn" type="submit" value="Enviar" onclick="novoFuncionario()" />
+            </div>
+        </form> -->
+        <table class="table table-striped">
+            <tr  class="bg-info">
+                <th>Matrícula</th>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>É LIDER?</th>
+                <th>Nome Lider</th>
+            </tr>
+        
+            <tbody id="myTable">
+                
+            </tbody>
+        </table>
+        
+        <!-- <input type="submit" class="lista" onclick="getFuncionario();" value="Lista de Funcionários" />
+        <div id="renderResults"></div> -->
+    </body>
+</html>
